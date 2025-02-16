@@ -29,7 +29,7 @@ let upcomingEvents = events
         sevenDaysLater.setDate(today.getDate() + 7);
         return event.date >= today && event.date <= sevenDaysLater;
     })
-    .map(event => event.title); /
+    .map(event => event.title); 
 
 console.log("Upcoming Events:", upcomingEvents);
 
